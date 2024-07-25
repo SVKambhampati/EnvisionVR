@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Geography Wonders.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Physics Phenomena.unity
     guid: 0887fecbd0c184be1b4353dfecb39303
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Body Blueprint.unity
     guid: b45031fb475f14519be7ad461c734465
   m_configObjects:
