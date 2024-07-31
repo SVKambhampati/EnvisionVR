@@ -2,21 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ToggleVeins : MonoBehaviour
+public class ToggleButtons : MonoBehaviour
 {
-    public GameObject veins;
+    public GameObject obj;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (veins.activeInHierarchy == false)
-        {
-            veins.SetActive(true);
-        }
-        else
-        {
-            veins.SetActive(false);
-        }
+        
+    }
+
+    public void ToggleGameObj()
+    {
+        obj.SetActive(!obj.activeSelf);
     }
 
     // Update is called once per frame
@@ -25,3 +23,7 @@ public class ToggleVeins : MonoBehaviour
         
     }
 }
+
+
+
+
